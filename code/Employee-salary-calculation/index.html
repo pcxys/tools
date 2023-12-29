@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="main.css" />
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <b>员工工资计算</b><br/>
+        <div>
+            <h4>员工工作计算表格</h4>
+            <table id = "table1">
+                <thead>
+                    <th>姓名</th>
+                    <th>基本工资</th>
+                    <th>全勤奖</th>
+                    <th>迟到次数</th>
+                    <th>缺卡次数</th>
+                    <th>严重迟到次数</th>
+                    <th>旷工次数</th>
+                </thead>
+                <tbody>
+                <tr id = "1">
+                    <td>陈娟</td>
+                    <td><input type="text" name="firstname" value="2800"></td>
+                    <td><input type="text" name="firstname" value="200"></td>
+                    <td><input type="text" name="firstname" value="0"></td>
+                    <td><input type="text" name="firstname" value="0"></td>
+                    <td><input type="text" name="firstname" value="0"></td>
+                    <td><input type="text" name="firstname" value="0"></td>
+                </tr>
+                <tr id = "2">
+                    <td>刘彩霞</td>
+                    <td><input type="text" name="firstname" value="2800"></td>
+                    <td><input type="text" name="firstname" value="200"></td>
+                    <td><input type="text" name="firstname" value="1"></td>
+                    <td><input type="text" name="firstname" value="2"></td>
+                    <td><input type="text" name="firstname" value="0"></td>
+                    <td><input type="text" name="firstname" value="0"></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <table id = "table3">
+                <thead>
+                    <th>迟到单次扣除</th>
+                    <th>缺卡单次扣除</th>
+                    <th>严重迟到单次扣除</th>
+                    <th>旷工单次扣除</th>
+                </thead>
+                <tbody>
+                    <tr id = "1">
+                        <td><input type="number" name="lateDeduct" value="5"></td>
+                        <td><input type="number" name="LackCardsDeduct" value="10"></td>
+                        <td><input type="number" name="seriousLateDeduct" value="30"></td>
+                        <td><input type="number" name="absenteeismDeduct" value="50"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <button id = "btn" onclick = "count()">计算</button>
+        </div>
+        <div>
+            <h4>工资计算结果</h4>
+            <table id = "table2">
+            </table>
+        </div>
+        <script>
+
+        </script>
+    </body>
+</html>

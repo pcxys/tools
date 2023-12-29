@@ -1,0 +1,46 @@
+body {
+	width : 1440px;
+/*	border : 1px black solid;*/
+	margin : auto;
+}
+
+.title {
+	text-align : center;
+}
+.main {
+	margin : 0 auto;
+	width : 800px;
+/*	border : 1px solid red;*/
+	text-align : center;
+	
+}
+.main table{
+	border : 1px black solid;
+	font-size : 30px;
+	text-align : left;
+	margin : 0 auto;
+}
+.main table td{
+	text-align:right;
+}
+.main table td input{
+	border : 0px red solid;
+	border-bottom : 1px black solid;
+	width : 200px;
+	height : 40px;
+	text-align : center;
+	font-size : 30px;
+}
+.main p {
+	text-align : center;
+}
+.button{
+	width : 300px;
+	height : 150px;
+	margin-top : 50px;
+	color : #FDFEFE;
+	background : #2E86C1;
+	font-size : 50px;
+	border-radius : 20px;
+	border : 0px;
+}
